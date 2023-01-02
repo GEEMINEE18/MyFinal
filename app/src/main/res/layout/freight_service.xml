@@ -1,0 +1,169 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		welcome_screen
+	 *	@date 		Monday 17th of October 2022 04:24:46 AM
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/freight_service" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+
+
+			<RelativeLayout android:id="@+id/page_freight_service_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__freight_service_ek2"
+					android:background="@drawable/_bg__freight_service_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="414dp"
+					android:layout_height="896dp" />
+
+				<View   android:id="@+id/rectangle_10_ek2"
+					android:background="@drawable/rectangle_10_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="141dp"
+					android:layout_width="414dp"
+					android:layout_height="755dp" />
+
+
+				<RelativeLayout android:id="@+id/frieght_services_btn_ek1"
+					android:layout_marginTop="470dp"
+					android:layout_marginStart="64dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/rectangle_4_ek5"
+						android:background="@drawable/rectangle_4_ek5_shape"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="288dp"
+						android:layout_height="84dp" />
+
+					<TextView android:id="@+id/transporting_parcels_by_train"
+						android:layout_gravity="center_horizontal|center"
+						android:gravity="center"
+						android:textSize="21sp"
+						android:textColor="@color/train_color"
+						android:layout_marginLeft="29dp"
+						android:layout_marginTop="17dp"
+						android:layout_width="236dp"
+						android:layout_height="79.58dp"
+						android:text="@string/transporting_parcels_by_train_string"
+						 />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/make_reservation_btn_ek1"
+					android:layout_marginTop="335dp"
+					android:layout_marginStart="64dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/rectangle_4_ek6"
+						android:background="@drawable/rectangle_4_ek6_shape"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="288dp"
+						android:layout_height="84dp" />
+
+					<TextView android:id="@+id/transporting_goods_using_railway_wagons"
+						android:layout_gravity="center_horizontal|center"
+						android:gravity="center"
+						android:textSize="21sp"
+						android:textColor="@color/train_color"
+						android:layout_marginLeft="23dp"
+						android:layout_marginTop="16dp"
+						android:layout_width="247dp"
+						android:layout_height="64.5dp"
+						android:text="@string/transporting_goods_using_railway_wagons_string"
+						 />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/logo_ek5"
+					android:layout_marginTop="29dp"
+					android:layout_marginStart="137dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/train2_removebg_preview_1_ek5"
+						android:src="@drawable/train2_removebg_preview_1_ek5"
+						android:contentDescription="train2_removebg_preview_1_ek5"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="82.93dp"
+						android:layout_height="63.07dp" />
+
+					<TextView android:id="@+id/rail_ek4"
+						android:textSize="22sp"
+						android:textColor="@color/train_color"
+						android:layout_marginLeft="77dp"
+						android:layout_marginTop="11dp"
+						android:layout_width="108.93dp"
+						android:layout_height="38.34dp"
+						android:text="@string/rail_ek4_string"
+						 />
+
+					<TextView android:id="@+id/t_r_i_p_ek3"
+						android:textSize="12sp"
+						android:textColor="@color/train_color"
+						android:layout_marginLeft="79dp"
+						android:layout_marginTop="33dp"
+						android:layout_width="86.02dp"
+						android:layout_height="19.92dp"
+						android:text="@string/t_r_i_p_ek3_string"
+						 />
+
+					<ImageView android:id="@+id/vector_1_ek5"
+						android:src="@drawable/vector_1_ek5"
+						android:contentDescription="vector_1_ek5"
+						 android:layout_marginStart="71dp"
+						android:layout_marginTop="15dp"
+						android:layout_width="0dp"
+						android:layout_height="30.29dp" />
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

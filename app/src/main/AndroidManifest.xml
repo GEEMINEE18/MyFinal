@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.figma_android_export" >
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".DrawerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChangePwdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".make_reservation_activity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".welcome_screen_activity" />
+        <activity android:name=".train_booking_activity" />
+        <activity android:name=".register_activity" />
+        <activity android:name=".home_1_activity" />
+        <activity android:name=".freight_service_activity" />
+        <activity android:name=".other_service_activity" />
+        <activity android:name=".trans_goods_activity" />
+        <activity android:name=".trans_parcels_activity" />
+        <activity android:name=".proceed_goods_parcels_activity" />
+        <activity android:name=".nav_bar_activity" />
+        <activity android:name=".travel_activity" />
+        <activity android:name=".payment_activity" />
+        <activity android:name=".confirm___pay_activity" /> <!-- <activity android:name="com.example.figma_android_export.1st_class_seat_booking_activity"></activity> -->
+        <activity android:name=".login_activity" />
+        <activity android:name=".today_schedule_activity" />
+        <activity android:name=".railway_resorts_booking_activity" />
+    </application>
+
+</manifest>

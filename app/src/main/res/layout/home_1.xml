@@ -1,0 +1,125 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		welcome_screen
+	 *	@date 		Monday 17th of October 2022 04:24:46 AM
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/home_1" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+			<RelativeLayout android:id="@+id/page_home_1_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View
+					android:id="@+id/_bg__home_1_ek2"
+					android:layout_width="414dp"
+					android:layout_height="750dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__home_1_ek2_shape" />
+
+				<View
+					android:id="@+id/rectangle_10_ek1"
+					android:layout_width="414dp"
+					android:layout_height="590dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="141dp"
+					android:background="@drawable/rectangle_10_ek1_shape" />
+
+
+				<RelativeLayout android:id="@+id/make_reservation_btn"
+					android:layout_marginTop="321dp"
+					android:layout_marginStart="64dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<!--
+					<TextView android:id="@+id/make_reservations"
+						android:textSize="21sp"
+						android:textColor="@color/train_color"
+						android:layout_marginLeft="46dp"
+						android:layout_marginTop="19dp"
+						android:layout_width="220.5dp"
+						android:layout_height="39.5dp"
+						android:text="@string/make_reservations_string"
+						 />
+				-->
+
+				</RelativeLayout>
+
+					<ImageView
+						android:id="@+id/logoo"
+						android:layout_width="300dp"
+						android:layout_height="300dp"
+						android:layout_marginStart="50dp"
+						android:layout_marginTop="-60dp"
+						android:contentDescription="logoo"
+						android:src="@drawable/logoo" />
+
+				<androidx.appcompat.widget.AppCompatButton
+					android:id="@+id/MakeReservationBtn"
+					android:layout_width="288dp"
+					android:layout_height="65dp"
+					android:layout_marginStart="60dp"
+					android:layout_marginTop="280dp"
+					android:background="@drawable/rectangle_4_ek4_shape"
+					android:text="Make Reservations"
+					android:textAllCaps="false"
+					android:textColor="@color/white"
+					android:textSize="21sp" />
+
+				<androidx.appcompat.widget.AppCompatButton
+					android:id="@+id/FrieghtServiceBtn"
+					android:layout_width="288dp"
+					android:layout_height="65dp"
+					android:layout_below="@id/MakeReservationBtn"
+					android:layout_marginStart="60dp"
+					android:layout_marginTop="55dp"
+					android:background="@drawable/rectangle_4_ek3_shape"
+					android:text="Railway Freight Services"
+					android:textAllCaps="false"
+					android:textColor="@color/white"
+					android:textSize="21sp" />
+
+				<androidx.appcompat.widget.AppCompatButton
+					android:id="@+id/OtherServiceBtn"
+					android:layout_width="288dp"
+					android:layout_height="65dp"
+					android:layout_marginStart="60dp"
+					android:layout_marginTop="55dp"
+					android:layout_below="@id/FrieghtServiceBtn"
+					android:background="@drawable/rectangle_4_ek2_shape"
+					android:text="Other Services"
+					android:textAllCaps="false"
+					android:textColor="@color/white"
+					android:textSize="21sp" />
+
+			</RelativeLayout>
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

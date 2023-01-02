@@ -1,0 +1,163 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		welcome_screen
+	 *	@date 		Monday 17th of October 2022 04:24:46 AM
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/other_service" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+
+
+
+
+			<RelativeLayout android:id="@+id/page_other_service_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__other_service_ek2"
+					android:background="@drawable/_bg__other_service_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="414dp"
+					android:layout_height="896dp" />
+
+				<View   android:id="@+id/rectangle_10_ek3"
+					android:background="@drawable/rectangle_10_ek3_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="141dp"
+					android:layout_width="414dp"
+					android:layout_height="755dp" />
+
+				<TextView android:id="@+id/display_ad_at_railway_stations_and_other_railway_premises"
+					android:textSize="21sp"
+					android:textColor="@color/display_ad_at_railway_stations_and_other_railway_premises_color"
+					android:layout_marginLeft="32dp"
+					android:layout_marginTop="222dp"
+					android:layout_width="378.5dp"
+					android:layout_height="64.5dp"
+					android:text="@string/display_ad_at_railway_stations_and_other_railway_premises_string"
+					 />
+
+				<TextView android:id="@+id/photography_or_filming_at_railway_premises_and_the_trains"
+					android:textSize="21sp"
+					android:textColor="@color/display_ad_at_railway_stations_and_other_railway_premises_color"
+					android:layout_marginLeft="32dp"
+					android:layout_marginTop="307dp"
+					android:layout_width="378.5dp"
+					android:layout_height="89.5dp"
+					android:text="@string/photography_or_filming_at_railway_premises_and_the_trains_string"
+					 />
+
+				<TextView android:id="@+id/obtaining_space_in_railway_premises_for_business_purposes"
+					android:textSize="21sp"
+					android:textColor="@color/display_ad_at_railway_stations_and_other_railway_premises_color"
+					android:layout_marginLeft="33dp"
+					android:layout_marginTop="417dp"
+					android:layout_width="378.5dp"
+					android:layout_height="89.5dp"
+					android:text="@string/obtaining_space_in_railway_premises_for_business_purposes_string"
+					 />
+
+				<TextView android:id="@+id/issuing_railway_tickets"
+					android:textSize="21sp"
+					android:textColor="@color/display_ad_at_railway_stations_and_other_railway_premises_color"
+					android:layout_marginLeft="32dp"
+					android:layout_marginTop="527dp"
+					android:layout_width="378.5dp"
+					android:layout_height="39.5dp"
+					android:text="@string/issuing_railway_tickets_string"
+					 />
+
+				<TextView android:id="@+id/rservation_of_retiring_rooms_at_railway_stations"
+					android:textSize="21sp"
+					android:textColor="@color/display_ad_at_railway_stations_and_other_railway_premises_color"
+					android:layout_marginLeft="32dp"
+					android:layout_marginTop="587dp"
+					android:layout_width="378.5dp"
+					android:layout_height="64.5dp"
+					android:text="@string/rservation_of_retiring_rooms_at_railway_stations_string"
+					 />
+
+
+				<RelativeLayout android:id="@+id/logo_ek6"
+					android:layout_marginTop="29dp"
+					android:layout_marginStart="137dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/train2_removebg_preview_1_ek6"
+						android:src="@drawable/train2_removebg_preview_1_ek6"
+						android:contentDescription="train2_removebg_preview_1_ek6"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="82.93dp"
+						android:layout_height="63.07dp" />
+
+					<TextView android:id="@+id/rail_ek5"
+						android:textSize="22sp"
+						android:textColor="@color/train_color"
+						android:layout_marginLeft="77dp"
+						android:layout_marginTop="11dp"
+						android:layout_width="108.93dp"
+						android:layout_height="38.34dp"
+						android:text="@string/rail_ek5_string"
+						 />
+
+					<TextView android:id="@+id/t_r_i_p_ek4"
+						android:textSize="12sp"
+						android:textColor="@color/train_color"
+						android:layout_marginLeft="79dp"
+						android:layout_marginTop="33dp"
+						android:layout_width="86.02dp"
+						android:layout_height="19.92dp"
+						android:text="@string/t_r_i_p_ek4_string"
+						 />
+
+					<ImageView android:id="@+id/vector_1_ek6"
+						android:src="@drawable/vector_1_ek6"
+						android:contentDescription="vector_1_ek6"
+						 android:layout_marginStart="71dp"
+						android:layout_marginTop="15dp"
+						android:layout_width="0dp"
+						android:layout_height="30.29dp" />
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

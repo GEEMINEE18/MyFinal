@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1086211719906",
+    "firebase_url": "https://figma-android-export-default-rtdb.firebaseio.com",
+    "project_id": "figma-android-export",
+    "storage_bucket": "figma-android-export.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086211719906:android:feb69bba2ee079b65b94bb",
+        "android_client_info": {
+          "package_name": "com.example.figma_android_export"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086211719906-tsu3gc0covldk6vju6m86plhbo2n83c8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs-zQOY8htCObJpXfZ8TcXsFFHPD-Z_5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086211719906-tsu3gc0covldk6vju6m86plhbo2n83c8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,181 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		welcome_screen
+	 *	@date 		Monday 17th of October 2022 04:24:46 AM
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+
+	<ScrollView android:id="@+id/make_reservation" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<RelativeLayout android:id="@+id/page_make_reservation_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View
+					android:id="@+id/_bg__make_reservation_ek2"
+					android:layout_width="414dp"
+					android:layout_height="1000dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__make_reservation_ek2_shape" />
+
+				<View
+					android:id="@+id/recLayout"
+					android:layout_width="414dp"
+					android:layout_height="1100dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="141dp"
+					android:background="@drawable/rectangle_10_shape" />
+
+				<androidx.appcompat.widget.AppCompatImageButton
+					android:id="@+id/trainbooking"
+					android:layout_width="355dp"
+					android:layout_height="178dp"
+					android:layout_marginStart="30dp"
+					android:layout_marginTop="200dp"
+					android:background="@drawable/rectangle_36_shape"
+					android:contentDescription="@string/train_booking_string"
+					android:src="@drawable/train2_1" />
+
+				<TextView
+					android:id="@+id/train_booking"
+					android:layout_width="177.5dp"
+					android:layout_height="47.5dp"
+					android:layout_marginLeft="50dp"
+					android:layout_marginTop="320dp"
+					android:text="@string/train_booking_string"
+					android:textColor="@color/train_color"
+					android:textSize="25sp"
+					android:textStyle="bold" />
+
+				<androidx.appcompat.widget.AppCompatImageButton
+					android:id="@+id/todays_schedule"
+					android:layout_width="355dp"
+					android:layout_height="178dp"
+					android:layout_below="@+id/trainbooking"
+					android:layout_marginStart="30sp"
+					android:layout_marginTop="30dp"
+					android:background="@drawable/rectangle_37_shape"
+					android:contentDescription="@string/today_schedule_string"
+					android:src="@drawable/train_3" />
+
+				<TextView
+					android:id="@+id/today_schedule"
+					android:layout_width="202.5dp"
+					android:layout_height="47.5dp"
+					android:layout_marginLeft="50dp"
+					android:layout_marginTop="160dp"
+					android:layout_below="@+id/train_booking"
+					android:text="@string/today_schedule_string"
+					android:textColor="@color/train_color"
+					android:textSize="25sp"
+					android:textStyle="bold" />
+
+				<androidx.appcompat.widget.AppCompatImageButton
+					android:id="@+id/resort_booking"
+					android:layout_width="355dp"
+					android:layout_height="178dp"
+					android:layout_below="@+id/todays_schedule"
+					android:layout_marginStart="30dp"
+					android:layout_marginTop="30dp"
+					android:background="@drawable/rectangle_38_shape"
+					android:contentDescription="@string/select_resort_ek1_string"
+					android:src="@drawable/train5_1" />
+
+				<TextView
+					android:id="@+id/railway_resorts_booking"
+					android:textStyle="bold"
+					android:textSize="25sp"
+					android:textColor="@color/train_color"
+					android:layout_marginLeft="50dp"
+					android:layout_marginTop="160dp"
+					android:layout_below="@+id/today_schedule"
+					android:layout_width="294.5dp"
+					android:layout_height="47.5dp"
+					android:text="Railway Resort Booking"
+					/>
+
+				<androidx.appcompat.widget.AppCompatImageButton
+					android:id="@+id/travel_sri_lanka"
+					android:layout_width="355dp"
+					android:layout_height="178dp"
+					android:layout_below="@+id/resort_booking"
+					android:layout_marginStart="30dp"
+					android:layout_marginTop="30dp"
+					android:background="@drawable/rectangle_37_shape"
+					android:contentDescription="@string/travel_sri_lanka_string"
+					android:src="@drawable/travel" />
+
+				<TextView
+					android:id="@+id/travel"
+					android:textStyle="bold"
+					android:textSize="25sp"
+					android:textColor="@color/train_color"
+					android:layout_marginLeft="50dp"
+					android:layout_marginTop="160dp"
+					android:layout_below="@+id/railway_resorts_booking"
+					android:layout_width="202.5dp"
+					android:layout_height="47.5dp"
+					android:text="Travel"
+					/>
+
+				<androidx.appcompat.widget.AppCompatImageButton
+					android:id="@+id/ViewStreet"
+					android:layout_width="355dp"
+					android:layout_height="178dp"
+					android:layout_below="@+id/travel_sri_lanka"
+					android:layout_marginStart="30dp"
+					android:layout_marginTop="30dp"
+					android:background="@drawable/rectangle_38_shape"
+					android:contentDescription="@string/select_resort_ek1_string"
+					android:src="@drawable/train5_1" />
+
+				<TextView
+					android:id="@+id/View_Street"
+					android:layout_width="294.5dp"
+					android:layout_height="47.5dp"
+					android:layout_below="@+id/travel"
+					android:layout_marginLeft="50dp"
+					android:layout_marginTop="160dp"
+					android:text="View Street"
+					android:textColor="@color/train_color"
+					android:textSize="25sp"
+					android:textStyle="bold" />
+
+
+			</RelativeLayout>
+
+			<ImageView
+				android:id="@+id/logoo"
+				android:layout_width="310dp"
+				android:layout_height="310dp"
+				android:layout_marginLeft="55dp"
+				android:layout_marginTop="-75dp"
+				android:contentDescription="logoo"
+				android:src="@drawable/logoo" />
+
+		</RelativeLayout>
+
+		</ScrollView>
+
+	</HorizontalScrollView>

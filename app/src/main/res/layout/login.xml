@@ -1,0 +1,202 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		welcome_screen
+	 *	@date 		Monday 17th of October 2022 04:24:46 AM
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/login" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+			<RelativeLayout
+				android:id="@+id/page_login_ek1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp">
+
+				<View
+					android:id="@+id/_bg__login_ek2"
+					android:layout_width="414dp"
+					android:layout_height="766dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__login_ek2_shape" />
+
+				<View
+					android:id="@+id/rectangle_1"
+					android:layout_width="414dp"
+					android:layout_height="562dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="325dp"
+					android:background="@drawable/rectangle_1_shape" />
+
+
+				<RelativeLayout
+					android:id="@+id/password"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="43dp"
+					android:layout_marginTop="557dp">
+
+					<EditText
+						android:id="@+id/Login_Pwd"
+						android:layout_width="327dp"
+						android:layout_height="49dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:background="@drawable/rectangle_3_shape"
+						android:hint="Password"
+						android:inputType="textPassword"
+						android:paddingStart="20dp" />
+
+
+				</RelativeLayout>
+
+
+				<RelativeLayout
+					android:id="@+id/username"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="43dp"
+					android:layout_marginTop="466dp">
+
+					<EditText
+						android:id="@+id/Login_Uname"
+						android:layout_width="327dp"
+						android:layout_height="49dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:background="@drawable/rectangle_2_shape"
+						android:hint="Username"
+						android:inputType="textEmailAddress"
+						android:paddingStart="20dp" />
+
+
+				</RelativeLayout>
+
+
+				<RelativeLayout
+					android:id="@+id/sign_in_button"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="133dp"
+					android:layout_marginTop="683dp">
+
+					<androidx.appcompat.widget.AppCompatButton
+						android:id="@+id/loginBtn"
+						android:layout_width="149dp"
+						android:layout_height="50dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:background="@drawable/rectangle_4_shape"
+						android:text="Sign in"
+						android:textAllCaps="false"
+						android:textColor="@color/white"
+						android:textSize="21sp" />
+
+					<!--
+					<TextView android:id="@+id/sign_in"
+						android:textSize="21sp"
+						android:textColor="@color/train_color"
+						android:layout_marginLeft="37dp"
+						android:layout_marginTop="11dp"
+						android:layout_width="99.5dp"
+						android:layout_height="39.5dp"
+						android:text="@string/sign_in_string"
+						 />
+		    -->
+
+				</RelativeLayout>
+
+				<TextView
+					android:id="@+id/forgot_password"
+					android:layout_width="194.5dp"
+					android:layout_height="35.5dp"
+					android:layout_marginLeft="201dp"
+					android:layout_marginTop="629dp"
+					android:linksClickable="true"
+					android:text="@string/forgot_password___string"
+					android:textColor="@color/forgot_password___color"
+					android:textSize="19sp" />
+
+				<TextView
+					android:id="@+id/login_ek3"
+					android:layout_width="145dp"
+					android:layout_height="72dp"
+					android:layout_marginLeft="156dp"
+					android:layout_marginTop="367dp"
+					android:text="@string/login_ek3_string"
+					android:textColor="@color/login_ek3_color"
+					android:textSize="38sp" />
+
+				<TextView
+					android:layout_width="314.5dp"
+					android:layout_height="31.5dp"
+					android:layout_marginLeft="61dp"
+					android:layout_marginTop="813dp"
+					android:text="Don't have an account ?"
+					android:textColor="@color/login_ek3_color"
+					android:textSize="17sp" />
+
+				<TextView
+					android:id="@+id/clickhereBtn"
+					android:layout_width="314.5dp"
+					android:layout_height="31.5dp"
+					android:layout_marginLeft="250dp"
+					android:layout_marginTop="813dp"
+					android:text="Click Here"
+					android:textColor="@color/login_ek3_color"
+					android:textSize="17sp" />
+
+
+				<RelativeLayout
+					android:id="@+id/logo_ek1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="64dp"
+					android:layout_marginTop="85dp">
+
+					<ImageView
+						android:id="@+id/logoo"
+						android:layout_width="320dp"
+						android:layout_height="320dp"
+						android:layout_marginStart="-25dp"
+						android:layout_marginTop="-70dp"
+						android:contentDescription="logoo"
+						android:src="@drawable/logoo" />
+
+					<TextView
+						android:id="@+id/welcome_to_rail__trip"
+						android:layout_width="216.5dp"
+						android:layout_height="40.5dp"
+						android:layout_marginLeft="45dp"
+						android:layout_marginTop="180dp"
+						android:text="Welcome to Train Com"
+						android:textColor="@color/train_color"
+						android:textSize="21sp" />
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>
